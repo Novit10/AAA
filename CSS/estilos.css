@@ -1,0 +1,103 @@
+/*Para todo*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Parte de arriba*/
+.Menu{
+background-color: #92b8ffb0;
+text-align: center;
+}
+li{
+position: relative;
+display: inline-block; 
+text-decoration:none;
+}
+
+
+/*Centro*/
+/*-------------------------------------------------------------------------*/
+/*Centro de Contactos*/
+.Entrada_Formulario_Nombre{
+    width: 25%;
+    height: 30%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #00ff37;
+  transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.Entrada_Formulario_Correo{
+    width: 25%;
+    height: 30%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #00e1ff;
+  transition: 0.5s;
+  outline: none;
+}
+.Botones_Enviar{
+    background-color: green;
+    font-size: 25px;
+    border: none;
+    text-decoration: none;
+    border-radius: 20%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.Botones_Borrar{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border: none;
+    text-decoration: none;
+    border-radius: 20%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.Botones_Borrar:hover{
+    background-color: blue;
+    color: white;
+}
+.Botones_Enviar:hover{
+    background-color: rgb(255, 0, 255);
+    color: black;
+}
+/*Centro de Inicio*/
+.Bienvenida{
+    width: 100%;
+    background-color: #d4d4d4;
+    text-align: center;
+}
+.Saludo{
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #ff0000;
+}
+.A{
+    font-size: 30px;
+}
+.Reglas{
+    font-size: 30px;
+    font-family: 'Sigmar One', cursive;
+}
+.Frase{
+    font-size: 50px;
+    font-family: 'Sigmar One', cursive;
+    text-shadow: 2px 2px 5px #ff0000;
+}
+/*-------------------------------------------------------------------------*/
+
+
+/*Parte de abajo*/
+.Pie{
+    margin-top: 100%;
+text-align: center;
+background-color: #92b8ffb0;
+}
+.Pie_Letra{
+display: flex;
+text-decoration:none;
+}
