@@ -68,13 +68,15 @@ text-decoration:none;
 }
 /*Centro de Inicio*/
 .Bienvenida{
+    animation:heartBeat;
+    animation-duration: 2s; 
     width: 100%;
-    background-color: #d4d4d4;
+    background: rgb(230,228,255);
+    background: radial-gradient(circle, rgba(230,228,255,1) 0%, rgba(255,183,195,1) 100%);
     text-align: center;
 }
 .Saludo{
     font-size: 40px;
-    text-shadow: 2px 2px 5px #ff0000;
 }
 .A{
     font-size: 30px;
@@ -86,13 +88,13 @@ text-decoration:none;
 .Frase{
     font-size: 50px;
     font-family: 'Sigmar One', cursive;
-    text-shadow: 2px 2px 5px #ff0000;
 }
 /*-------------------------------------------------------------------------*/
 
 
 /*Parte de abajo*/
 .Pie{
+
     margin-top: 100%;
 text-align: center;
 background-color: #92b8ffb0;
@@ -101,3 +103,5 @@ background-color: #92b8ffb0;
 display: flex;
 text-decoration:none;
 }
+
+
